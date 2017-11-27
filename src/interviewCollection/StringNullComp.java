@@ -4,6 +4,11 @@ public class StringNullComp {
 	
 	public static void main(String[] args) {
 		
+		/*when we use new keyword String" java" is created at the heap memory.
+		  
+		   otherwise, String s1 creates object"Java" in SCP--String constant pool memory.
+		 */
+		
 		String s1 = "Java";
 	    String s2 = new String("Java");	
 	    
